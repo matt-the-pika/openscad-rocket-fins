@@ -18,3 +18,7 @@ The cylinderDiameter is the ID (Inner Diameter) of the cylinder in mm, so if the
 * $cylinderDiameter - ID (Inner Diameter) of the cylinder in mm
 * $cylinderHeight - cylinder height in mm
 * $wallThickness - cylinder wall thickness in mm
+
+### To Do
+Fix the corner radius function so it understands 0 is ok and means no radius.
+Put smarter calculations in for keeping tops of fins attached when you add an angle. Needs to be smarter about the distance it moves the fin and ideally add this difference back onto the length of the fin so that remains constant.
