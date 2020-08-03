@@ -4,25 +4,23 @@
 $finNumber = 5;
 $finThickness = 2;
 $finHeight = 70;
-$finWidth = 40;
+$finWidth = 45;
 $finCornerRadius = 1; // Has to be > 0
 $finOffsetFromBottom = 0;
 $finAngle = 0; // Workable max fin angle is dictated by fin length
 
 // Body cylinder 
-// This is defined by inner cylinder, so if the rocket is 40mm then this needs to be something like 41mm
-$cylinderDiameter = 35;
+// This is defined by inner cylinder, so if the rocket is 40mm then this needs to be something like 40.2mm
+$cylinderDiameter = 40.2;
 $cylinderHeight = 80; // 
 $wallThickness = 1;
 
-
-
-
+// *******************************************************************
 
 // Leave these variables alone!
 $fn=100;
-$finOffsetForAngle = $finAngle*0.05; // This tries to keep the top of the fins in the cylinder, betterer maths would work betterer. Something something exponential or log.
-$finInsertDepth = $finAngle * 0.25;
+$finOffsetForAngle = $finAngle*0.05; // This tries to keep the top of the fins in the cylinder, betterer maths would work betterer. Something something exponential or log probabbly.
+$finInsertDepth = $finAngle * 0.25 * -1;
 $cylinderOuterRadius = $cylinderDiameter/2 + $wallThickness;
 $incrementDegrees = 360/$finNumber;
 $cylinderRadius = $cylinderDiameter/2;
