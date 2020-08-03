@@ -2,6 +2,9 @@
 
 OpenSCAD (https://www.openscad.org/) design that allows you to easily create a fin assembly for a model rocket that can be 3D printed
 
+## Usage
+Download the rocket_fins.scad file and open it in OpenSCAD. Edit the variables at the top of the file to suit your needs and hit F5 to preview it. Once happy File -> Export -> Export as STL to get an STL file out ready for slicing.
+
 ## Variables
 
 ### Fins
