@@ -1,6 +1,6 @@
 # openscad-rocket-fins
 
-OpenSCAD design that allows you to easily create a fin assembly for a model rocket that can be 3D printed
+OpenSCAD (https://www.openscad.org/) design that allows you to easily create a fin assembly for a model rocket that can be 3D printed
 
 ## Variables
 
